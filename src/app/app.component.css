@@ -1,0 +1,131 @@
+.containerToolbar{
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+}
+.title > p {
+  width: 70%;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3em;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 30px;
+}
+
+.subtitle{
+  display: flex;
+  margin-right: 30px;
+  justify-content: end;
+}
+.subtitle > p {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9em;
+  margin:0 5px;
+  padding: 0px;
+}
+.nameL{
+  height: 25px;
+  width: 50px;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  text-align: end;
+}
+
+.menu{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none; 
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0; 
+  margin: 0; 
+}
+
+li {
+  padding: 10px; 
+  margin: 0; 
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: black; 
+}
+.quebras{
+  padding: 0px;
+  margin: 0px;
+  height: 2px;
+  background-color: rgb(65, 65, 65);
+}
+
+.quebra1{
+  animation: quebra1 2s;
+  width: 70%;
+}
+.quebra2{
+  animation: quebra2 2s;
+  width: 70%;
+  margin-left: 30%;
+}
+.linhaE{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+@keyframes quebra1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes quebra2 {
+  0% {
+    width: 100%;
+    margin-left: 100%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+  .menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    padding: 15px;
+    margin-right: 5px;
+    margin-bottom: 12px;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    padding:5px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .menu-link:hover {
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    text-align: end;
+  }
